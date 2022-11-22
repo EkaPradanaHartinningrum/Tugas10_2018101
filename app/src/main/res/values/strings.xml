@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Tugas5_RecycleView</string>
+    <string name="Close">Close</string>
+    <string name="Open">Open</string>
+    <string name="presiden_1">Bapak Proklamator</string>
+    <string name="jabatan_1">Jabatan 18 Agustus 1945 sampai 12 Maret 1967</string>
+    <string name="biografi_1">kelahirannya di Blitar, Jawa Timur 6 Juni 1901 dan meninggal di Jakarta, 21 Juni 1970 pada umur 69 tahun.</string>
+    <string name="presiden_2">Bapak Pembangunan</string>
+    <string name="jabatan_2">Jabatan 12 Maret 1967 sampai 21 Mei 1998</string>
+    <string name="biografi_2">Soeharto lahir di Bantul, 8 Juni 1921, dan wafat pada 27 Januari 2008 di Jakarta karena kegagalan organ multifungsi.</string>
+    <string name="presiden_7">Bapak Infrastruktur</string>
+    <string name="jabatan_7">Jabatan 20 Oktober 2014 sampai Sekarang</string>
+    <string name="todo">TODO</string>
+    <string name="biografi_7">Nama Jokowi sudah mulai mencuat sejak dirinya menjalankan amanah sebagai Wali Kota Surakarta (Solo) pada 28 Juli 2005 sampai 1 Oktber 2012.</string>
+    <string-array name="presiden">
+        <item>Soekarno</item>
+        <item>Soeharto</item>
+        <item>Jokowi</item>
+    </string-array>
+    <string-array name="julukan">
+        <item>Bapak Proklamator</item>
+        <item>Bapak Pembangunan</item>
+        <item>Bapak Infrastruktur</item>
+    </string-array>
+    <string-array name="deskripsi">
+        <item>Jabatan 18 Agustus 1945 - 12 Maret 1967</item>
+        <item>Jabatan 12 Maret 1967 - 21 Mei 1998</item>
+        <item>Jabatan 20 Oktober 2014 - Sekarang</item>
+    </string-array>
+</resources>

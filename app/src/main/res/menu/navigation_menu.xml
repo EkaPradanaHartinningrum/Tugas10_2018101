@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_presiden"
+            android:icon="@drawable/ic_profile"
+            android:title="Presiden" />
+        <item
+            android:id="@+id/nav_provinsi"
+            android:icon="@drawable/ic_provinsi"
+            android:title="Provinsi" />
+        <item
+            android:id="@+id/nav_alarm"
+            android:icon="@drawable/ic_jam"
+            android:title="Alarm Manager" />
+    </group>
+</menu>
