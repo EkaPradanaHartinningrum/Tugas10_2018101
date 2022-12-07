@@ -17,8 +17,8 @@ public class AlarmReceiver extends BroadcastReceiver {
         PendingIntent pendingIntent = PendingIntent.getActivity(context, 0 ,i, 0);
         NotificationCompat.Builder builder = new NotificationCompat.Builder(context, "AlarmManager")
                 .setSmallIcon(R.drawable.ic_notif_24dp)
-                .setContentTitle("ini Alarm Manager")
-                .setContentText("Praktikum BAB 6 Alarm Manager")
+                .setContentTitle("ini Tugas Alarm Manager")
+                .setContentText("2018101 eka")
                 .setAutoCancel(true)
                 .setDefaults(NotificationCompat.DEFAULT_ALL)
                 .setPriority(NotificationCompat.PRIORITY_HIGH)

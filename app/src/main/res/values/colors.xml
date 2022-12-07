@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="warna_merah">#FF0000</color>
+    <color name="merah_menu">#f75c5c</color>
     <color name="warna_blur">#BDBDBD</color>
     <color name="white">#FFFFFFFF</color>
     <color name="purple_200">#FFBB86FC</color>

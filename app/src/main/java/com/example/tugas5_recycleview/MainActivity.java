@@ -22,6 +22,11 @@ import com.google.android.material.navigation.NavigationView;
 import com.google.android.material.timepicker.MaterialTimePicker;
 import com.google.android.material.timepicker.TimeFormat;
 
+import androidx.work.ExistingWorkPolicy;
+import androidx.work.OneTimeWorkRequest;
+import androidx.work.WorkManager;
+
+
 import java.util.Calendar;
 
 public class MainActivity extends AppCompatActivity {
@@ -59,11 +64,11 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 int id = item.getItemId();
-                if (id == R.id.nav_provinsi){
+                if (id == R.id.nav_presiden){
                     Intent a = new Intent(MainActivity.this, DestinationActivity.class);
                     startActivity(a);
-                }else if (id == R.id.nav_presiden){
-                    Intent a = new Intent(MainActivity.this, MainActivity.class);
+                }else if (id == R.id.nav_provinsi){
+                    Intent a = new Intent(MainActivity.this, ProvinsiActivity.class);
                     startActivity(a);
                 }else if (id == R.id.nav_alarm) {
                     Intent a = new Intent(MainActivity.this, MainActivity.class);
@@ -71,7 +76,8 @@ public class MainActivity extends AppCompatActivity {
                 }
                 return true;
             }
-        });
+        }
+        );
         //button Alarm Manager
         binding.selectedTimeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
