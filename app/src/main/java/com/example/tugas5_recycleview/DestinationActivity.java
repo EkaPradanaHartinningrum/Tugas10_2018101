@@ -53,6 +53,10 @@ public class DestinationActivity extends AppCompatActivity {
                     Intent a = new Intent(DestinationActivity.this, MainActivity.class);
                     startActivity(a);
                 }
+                else if (id == R.id.nav_restapi) {
+                    Intent a = new Intent(DestinationActivity.this, RestApi.class);
+                    startActivity(a);
+                }
                 return true;
             }
         });

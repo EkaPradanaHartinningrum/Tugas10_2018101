@@ -82,6 +82,10 @@ public class ProvinsiActivity extends AppCompatActivity {
                     Intent a = new Intent(ProvinsiActivity.this, MainActivity.class);
                     startActivity(a);
                 }
+                else if (id == R.id.nav_restapi) {
+                    Intent a = new Intent(ProvinsiActivity.this, RestApi.class);
+                    startActivity(a);
+                }
                 return true;
             }
         });

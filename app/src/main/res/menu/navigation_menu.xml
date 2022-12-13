@@ -15,5 +15,9 @@
             android:id="@+id/nav_alarm"
             android:icon="@drawable/ic_jam"
             android:title="Alarm Manager" />
+        <item
+            android:id="@+id/nav_restapi"
+            android:icon="@drawable/ic_bantuan"
+            android:title="Rest APi" />
     </group>
 </menu>
