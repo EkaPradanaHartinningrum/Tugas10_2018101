@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Semester5/Z Mobile praktikum/project prak mobile/Tugas6_AlarmManager/Tugas6_AlarmManager/app/src/main/res/drawable/ic_jam.xml" value="0.156" />
+        <entry key="..\:/Semester5/Z Mobile praktikum/project prak mobile/Tugas6_AlarmManager/Tugas6_AlarmManager/app/src/main/res/layout/activity_destination.xml" value="0.33" />
+        <entry key="..\:/Semester5/Z Mobile praktikum/project prak mobile/Tugas6_AlarmManager/Tugas6_AlarmManager/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Semester5/Z Mobile praktikum/project prak mobile/Tugas6_AlarmManager/Tugas6_AlarmManager/app/src/main/res/layout/item_presiden.xml" value="0.20416666666666666" />
+        <entry key="..\:/Semester5/Z Mobile praktikum/project prak mobile/Tugas6_AlarmManager/Tugas6_AlarmManager/app/src/main/res/layout/navigation_header.xml" value="0.20416666666666666" />
+        <entry key="..\:/Semester5/Z Mobile praktikum/project prak mobile/Tugas6_AlarmManager/Tugas6_AlarmManager/app/src/main/res/menu/navigation_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Semester5/Z Mobile praktikum/project prak mobile/Tugas7_WorkManager/Tugas7_WorkManager/app/src/main/res/layout/activity_destination.xml" value="0.22" />
+        <entry key="..\:/Semester5/Z Mobile praktikum/project prak mobile/Tugas7_WorkManager/Tugas7_WorkManager/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Semester5/Z Mobile praktikum/project prak mobile/Tugas7_WorkManager/Tugas7_WorkManager/app/src/main/res/layout/item_presiden.xml" value="0.20416666666666666" />
+        <entry key="..\:/Semester5/Z Mobile praktikum/project prak mobile/Tugas7_WorkManager/Tugas7_WorkManager/app/src/main/res/layout/navigation_header.xml" value="0.19010416666666666" />
+        <entry key="..\:/Semester5/Z Mobile praktikum/project prak mobile/Tugas7_WorkManager/Tugas7_WorkManager/app/src/main/res/menu/navigation_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Semester5/Z Mobile praktikum/project prak mobile/Tugas8_SQLLite Database - Copy/Tugas8_SQLLite Database/app/src/main/res/layout/activity_destination.xml" value="0.20416666666666666" />
+        <entry key="..\:/Semester5/Z Mobile praktikum/project prak mobile/Tugas8_SQLLite Database - Copy/Tugas8_SQLLite Database/app/src/main/res/layout/activity_display_data.xml" value="0.20416666666666666" />
+        <entry key="..\:/Semester5/Z Mobile praktikum/project prak mobile/Tugas8_SQLLite Database - Copy/Tugas8_SQLLite Database/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Semester5/Z Mobile praktikum/project prak mobile/Tugas8_SQLLite Database - Copy/Tugas8_SQLLite Database/app/src/main/res/layout/activity_provinsi.xml" value="0.20416666666666666" />
+        <entry key="..\:/Semester5/Z Mobile praktikum/project prak mobile/Tugas8_SQLLite Database - Copy/Tugas8_SQLLite Database/app/src/main/res/layout/activity_rest_api.xml" value="0.25" />
+        <entry key="..\:/Semester5/Z Mobile praktikum/project prak mobile/Tugas8_SQLLite Database - Copy/Tugas8_SQLLite Database/app/src/main/res/layout/item_presiden.xml" value="0.20416666666666666" />
+        <entry key="..\:/Semester5/Z Mobile praktikum/project prak mobile/Tugas8_SQLLite Database - Copy/Tugas8_SQLLite Database/app/src/main/res/layout/navigation_header.xml" value="0.20416666666666666" />
+        <entry key="..\:/Semester5/Z Mobile praktikum/project prak mobile/Tugas8_SQLLite Database - Copy/Tugas8_SQLLite Database/app/src/main/res/layout/singledata.xml" value="0.20416666666666666" />
+        <entry key="..\:/Semester5/Z Mobile praktikum/project prak mobile/Tugas8_SQLLite Database - Copy/Tugas8_SQLLite Database/app/src/main/res/menu/flow_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Semester5/Z Mobile praktikum/project prak mobile/Tugas8_SQLLite Database - Copy/Tugas8_SQLLite Database/app/src/main/res/menu/navigation_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Semester5/Z Mobile praktikum/project prak mobile/Tugas8_SQLLite Database/Tugas8_SQLLite Database/app/src/main/res/drawable/ic_baseline_favorite_border_24.xml" value="0.159" />
+        <entry key="..\:/Semester5/Z Mobile praktikum/project prak mobile/Tugas8_SQLLite Database/Tugas8_SQLLite Database/app/src/main/res/drawable/ic_baseline_star_24.xml" value="0.159" />
+        <entry key="..\:/Semester5/Z Mobile praktikum/project prak mobile/Tugas8_SQLLite Database/Tugas8_SQLLite Database/app/src/main/res/layout/activity_destination.xml" value="0.1" />
+        <entry key="..\:/Semester5/Z Mobile praktikum/project prak mobile/Tugas8_SQLLite Database/Tugas8_SQLLite Database/app/src/main/res/layout/activity_display_data.xml" value="0.25" />
+        <entry key="..\:/Semester5/Z Mobile praktikum/project prak mobile/Tugas8_SQLLite Database/Tugas8_SQLLite Database/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Semester5/Z Mobile praktikum/project prak mobile/Tugas8_SQLLite Database/Tugas8_SQLLite Database/app/src/main/res/layout/activity_provinsi.xml" value="0.203125" />
+        <entry key="..\:/Semester5/Z Mobile praktikum/project prak mobile/Tugas8_SQLLite Database/Tugas8_SQLLite Database/app/src/main/res/layout/item_presiden.xml" value="0.20416666666666666" />
+        <entry key="..\:/Semester5/Z Mobile praktikum/project prak mobile/Tugas8_SQLLite Database/Tugas8_SQLLite Database/app/src/main/res/layout/navigation_header.xml" value="0.20416666666666666" />
+        <entry key="..\:/Semester5/Z Mobile praktikum/project prak mobile/Tugas8_SQLLite Database/Tugas8_SQLLite Database/app/src/main/res/layout/singledata.xml" value="0.25" />
+        <entry key="..\:/Semester5/Z Mobile praktikum/project prak mobile/Tugas8_SQLLite Database/Tugas8_SQLLite Database/app/src/main/res/menu/flow_menu.xml" value="0.22" />
+        <entry key="..\:/Semester5/Z Mobile praktikum/project prak mobile/Tugas8_SQLLite Database/Tugas8_SQLLite Database/app/src/main/res/menu/navigation_menu.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
