@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
     private PendingIntent pendingIntent;
     private DrawerLayout dl;
     private ActionBarDrawerToggle abdt;
+    private SessionManager session;
 
     RecyclerView recylerView;
 
@@ -57,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
 
         dl.addDrawerListener(abdt);
         abdt.syncState();
+        session = new SessionManager(getApplicationContext());
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         NavigationView nav_view = (NavigationView)findViewById(R.id.nav_view);
@@ -77,6 +79,16 @@ public class MainActivity extends AppCompatActivity {
                 else if (id == R.id.nav_restapi) {
                     Intent a = new Intent(MainActivity.this, RestApi.class);
                     startActivity(a);
+                }
+                else if (id == R.id.nav_logout) {
+                    Intent a = new Intent(MainActivity.this, HalamanMasuk.class);
+                    startActivity(a);
+                }
+                else if (id == R.id.nav_logout) {
+                    Intent a = new Intent(MainActivity.this, HalamanMasuk.class);
+                    session.setLogin(false);
+                    startActivity(a);
+                    finish();
                 }
                 return true;
             }

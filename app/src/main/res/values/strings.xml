@@ -1,5 +1,17 @@
 <resources>
-    <string name="app_name">Tugas9_Rest API</string>
+    <string name="app_name">Tugas10_SharedPreferencses</string>
+    <string name="hello_blank_fragment">Hello blankfragment</string>
+    <string name="swipe_left_for_register">Swipe Left forRegister</string>
+    <string name="login">Indonesia</string>
+    <string name="enter">Enter</string>
+    <string name="password">Password</string>
+    <string name="e_mail">Email</string>
+    <string name="tagLogin">Learn More About Indonesian \n\n\nLogin Your Account</string>
+    <string name="tagRegister">Let\'s Register Your Account And\nGo Back To Login</string>
+    <string name="swipe_right_for_login">Swipe Right forLogin</string>
+    <string name="register">Register</string>
+    <string name="your_name">Full Name</string>
+    <string name="username">Username</string>
     <string name="Close">Close</string>
     <string name="Open">Open</string>
     <string name="presiden_1">Bapak Proklamator</string>

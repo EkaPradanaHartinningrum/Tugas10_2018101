@@ -62,8 +62,7 @@ public class MyAdapter extends
         holder.flowmenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                PopupMenu popupMenu = new PopupMenu(context,
-                        holder.flowmenu);
+                PopupMenu popupMenu = new PopupMenu(context, holder.flowmenu);
                 popupMenu.inflate(R.menu.flow_menu);
                 popupMenu.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
                     @Override
@@ -82,8 +81,7 @@ public class MyAdapter extends
                                 bundle.putString("price", model.getUserprice());
 
                                 bundle.putByteArray("avatar", model.getProavatar());
-                                Intent intent = new
-                                        Intent(context, MainActivity.class);
+                                Intent intent = new Intent(context, ProvinsiActivity.class);
 
                                 intent.putExtra("userdata", bundle);
                                 context.startActivity(intent);

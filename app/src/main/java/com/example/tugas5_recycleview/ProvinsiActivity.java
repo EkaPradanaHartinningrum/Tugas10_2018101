@@ -4,8 +4,10 @@ import static com.example.tugas5_recycleview.DBmain.TABLENAME;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.Manifest;
 import android.content.ContentValues;
@@ -30,7 +32,10 @@ import com.example.tugas5_recycleview.databinding.ActivityProvinsiBinding;
 import java.io.ByteArrayOutputStream;
 
 public class ProvinsiActivity extends AppCompatActivity {
+    private DrawerLayout dl;
+    private ActionBarDrawerToggle abdt;
     private ActivityProvinsiBinding binding;
+    private SessionManager session;
     DBmain dBmain;
     SQLiteDatabase sqLiteDatabase;
     int id = 0;
@@ -67,6 +72,15 @@ public class ProvinsiActivity extends AppCompatActivity {
                 }
             }
         });
+        //Action Bar
+        dl = (DrawerLayout)findViewById(R.id.dl);
+        abdt = new ActionBarDrawerToggle(this,dl,R.string.Open,R.string.Close);
+        abdt.setDrawerIndicatorEnabled(true);
+
+        dl.addDrawerListener(abdt);
+        abdt.syncState();
+        session = new SessionManager(getApplicationContext());
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         NavigationView nav_view = (NavigationView) findViewById(R.id.nav_view);
         nav_view.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -86,9 +100,21 @@ public class ProvinsiActivity extends AppCompatActivity {
                     Intent a = new Intent(ProvinsiActivity.this, RestApi.class);
                     startActivity(a);
                 }
+                else if (id == R.id.nav_logout) {
+                    Intent a = new Intent(ProvinsiActivity.this, HalamanMasuk.class);
+                    session.setLogin(false);
+                    startActivity(a);
+                    finish();
+                }
                 return true;
             }
         });
+
+    }
+    //action Bar
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        return abdt.onOptionsItemSelected(item) || super.onOptionsItemSelected(item);
     }
 
     private void editData() {

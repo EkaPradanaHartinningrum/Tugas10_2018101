@@ -36,8 +36,7 @@ public class DisplayData extends AppCompatActivity {
         binding.btnCreate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent a = new Intent(DisplayData.this,
-                        MainActivity.class);
+                Intent a = new Intent(DisplayData.this, ProvinsiActivity.class);
                 startActivity(a);
             }
         });

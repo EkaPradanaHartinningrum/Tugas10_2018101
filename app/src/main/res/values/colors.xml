@@ -13,4 +13,7 @@
     <color name="grey_dark">#131313</color>
     <color name="grey_card">#201F1F</color>
     <color name="yellow">#FDFD1F</color>
+    <color name="colorPrimary">#00796b</color>
+    <color name="colorPrimaryDark">#00695C</color>
+    <color name="colorAccent">#FF4081</color>
 </resources>

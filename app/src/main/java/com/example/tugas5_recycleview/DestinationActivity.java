@@ -11,6 +11,7 @@ import androidx.work.ExistingWorkPolicy;
 import androidx.work.OneTimeWorkRequest;
 import androidx.work.WorkManager;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
@@ -22,6 +23,8 @@ public class DestinationActivity extends AppCompatActivity {
     private DrawerLayout dl;
     private ActionBarDrawerToggle abdt;
     private ActivityDestinationBinding binding;
+    private SessionManager session;
+
     RecyclerView recylerView;
     String s1[], s2[],s3[];
     int images[] = {R.drawable.jokowi,R.drawable.bjhabibie,R.drawable.megawati,R.drawable.soeharto};
@@ -30,32 +33,39 @@ public class DestinationActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityDestinationBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+        session = new SessionManager(getApplicationContext());
         dl = (DrawerLayout)findViewById(R.id.dl);
         abdt = new ActionBarDrawerToggle(this,dl,R.string.Open,R.string.Close);
         abdt.setDrawerIndicatorEnabled(true);
         dl.addDrawerListener(abdt);
         abdt.syncState();
         //action Bar
+
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        NavigationView nav_view =
-                (NavigationView)findViewById(R.id.nav_view);
+        NavigationView nav_view = (NavigationView)findViewById(R.id.nav_view);
         nav_view.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 int id = item.getItemId();
-                if (id == R.id.nav_provinsi){
+                if (id == R.id.nav_presiden) {
                     Intent a = new Intent(DestinationActivity.this, DestinationActivity.class);
                     startActivity(a);
-                }else if (id == R.id.nav_presiden){
+                } else if (id == R.id.nav_provinsi) {
                     Intent a = new Intent(DestinationActivity.this, ProvinsiActivity.class);
                     startActivity(a);
-                }else if (id == R.id.nav_alarm) {
+                } else if (id == R.id.nav_alarm) {
                     Intent a = new Intent(DestinationActivity.this, MainActivity.class);
                     startActivity(a);
                 }
                 else if (id == R.id.nav_restapi) {
                     Intent a = new Intent(DestinationActivity.this, RestApi.class);
                     startActivity(a);
+                }
+                else if (id == R.id.nav_logout) {
+                    Intent a = new Intent(DestinationActivity.this, HalamanMasuk.class);
+                    session.setLogin(false);
+                    startActivity(a);
+                    finish();
                 }
                 return true;
             }
